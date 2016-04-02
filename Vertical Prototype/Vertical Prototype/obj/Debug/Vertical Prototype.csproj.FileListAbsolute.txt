@@ -1,0 +1,24 @@
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\Vertical Prototype.exe.config
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.exe
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.pdb
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\Vertical Prototype.exe
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\Vertical Prototype.pdb
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\MahApps.Metro.dll
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\MahApps.Metro.pdb
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\bin\Debug\MahApps.Metro.xml
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.csprojResolveAssemblyReference.cache
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\MainWindow.g.cs
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\UserControl1.g.cs
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\App.g.cs
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype_MarkupCompile.cache
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype_MarkupCompile.lref
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\App.baml
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\MainWindow.baml
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\UserControl1.baml
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.g.resources
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical_Prototype.Properties.Resources.resources
+C:\Users\omar\Documents\Visual Studio 2015\Projects\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.csproj.GenerateResource.Cache
+C:\Users\omar\Source\Repos\CPSC481_Vertical-Prototype\Vertical Prototype\Vertical Prototype\bin\Debug\Vertical Prototype.exe.config
+C:\Users\omar\Source\Repos\CPSC481_Vertical-Prototype\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.exe
+C:\Users\omar\Source\Repos\CPSC481_Vertical-Prototype\Vertical Prototype\Vertical Prototype\obj\Debug\Vertical Prototype.pdb

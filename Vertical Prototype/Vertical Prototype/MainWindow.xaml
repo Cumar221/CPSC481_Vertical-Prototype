@@ -1,0 +1,169 @@
+﻿<Controls:MetroWindow x:Class="Vertical_Prototype.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vertical_Prototype"
+        mc:Ignorable="d"
+        Title="Purchase Page" Height="500" Width="700">
+    <Grid>
+        <Controls:NumericUpDown x:Name="adultTicketChoice"  Minimum =" 3" Maximum="30" Interval="3" Margin="172,0,0,352" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White" RenderTransformOrigin="1,0"/>
+        <Controls:NumericUpDown x:Name="youthTicketChoice" Minimum ="2" Maximum="20" Interval="2" Margin="172,0,0,200" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"  RenderTransformOrigin="1,0"/>
+        <Controls:NumericUpDown x:Name="totalCost" HideUpDownButtons="True" Margin="333,0,0,61" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"  RenderTransformOrigin="1,0"/>
+        <Controls:NumericUpDown x:Name="adultDayPassChoice" Minimum =" 9" Maximum="90" Interval="9" Margin="333,0,0,352" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White" RenderTransformOrigin="1,0"/>
+        <Controls:NumericUpDown x:Name="adultMonthlyPassChoice" Minimum ="99" Maximum="990" Interval="99" Margin="333,0,0,283" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"/>
+        <Controls:NumericUpDown x:Name="youthDayPassChoice" Minimum ="6" Maximum="60" Interval="6" Margin="333,0,0,200" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"/>
+        <Controls:NumericUpDown x:Name="adultWeeklyPassChoice" Minimum ="24" Maximum="240" Interval="24"  Margin="172,0,0,283" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"/>
+
+        <Controls:NumericUpDown x:Name="youthMonthlyPassChoice" Minimum ="65" Maximum="650"  Interval="65" Margin="333,0,0,130" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White"/>
+        <Controls:NumericUpDown x:Name="youthWeeklyPassChoice" Minimum ="16" Maximum="160" Interval="16" Margin="172,0,0,130" StringFormat ="N2" HorizontalAlignment="Left" Width="109" Height="39" VerticalAlignment="Bottom" BorderBrush="#FF4EC516" Background="#FF3EC517" Foreground="White" Focusable="False" UseLayoutRounding="False"/>
+        <Label x:Name="adultWeeklyPassLbl" Content="Weekly Pass(s)" HorizontalAlignment="Left" Margin="172,121,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label x:Name="adultTicketLbl" Content="Single Ticket(s)" HorizontalAlignment="Left" Margin="172,52,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label x:Name="adultDayPassLbl" Content="Day Pass(s)" HorizontalAlignment="Left" Margin="333,52,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="adultMonthlyPassLbl" Content="Monthly Pass(s)" HorizontalAlignment="Left" Margin="333,122,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="youthTicketLbl" Content="Single Ticket(s)" HorizontalAlignment="Left" Margin="172,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,1.269"/>
+        <Label x:Name="youthDayPassLbl" Content="Day Pass(s)" HorizontalAlignment="Left" Margin="333,204,0,0" VerticalAlignment="Top" Height="27"/>
+        <Label x:Name="youthWeeklyPassLbl" Content="Weekly Pass(s)" HorizontalAlignment="Left" Margin="172,274,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="youthMonthlyPassLbl" Content="Monthly Pass(s)" HorizontalAlignment="Left" Margin="333,274,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Adult" HorizontalAlignment="Left" Margin="65,54,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Youth" HorizontalAlignment="Left" Margin="65,200,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Confirm" HorizontalAlignment="Left" Margin="537,402,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.152,0.538"/>
+        <Label x:Name="label" Content="Total:" HorizontalAlignment="Left" Margin="285,375,0,0" VerticalAlignment="Top"/>
+        <ToggleButton x:Name="adultBtn" Margin="37,78,551,288" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF3AB00E" IsEnabled="False">
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="adultIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+        </ToggleButton>
+        <ToggleButton x:Name="youthBtn" Margin="34,218,551,142" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF3EB611" IsEnabled="False">
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="teenIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform Y="0.05"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+
+        </ToggleButton>
+        <ToggleButton x:Name="confirmBtn" Margin="589,369,10,0" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF40C110" Checked="confirmBtn_Checked" >
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="nextIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform Y="0.08"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+        </ToggleButton>
+        <Controls:Flyout x:Name="helpFlyout"  Header="HELP" Theme="Accent"  CloseButtonIsCancel="False" Position="Top" ClosingFinished="questionBtn_UnClick" Cursor="Hand" AllowDrop="True" IsPinned="False" ForceCursor="True" Height="269" />
+        <Border Width="245" Margin="447,-1,0,1" >
+            <Controls:Flyout x:Name="myFlyout"  Header="Shopping Cart" Theme="Accent"  Position="Right" Cursor="Hand" CloseButtonIsCancel="True" AllowDrop="True" IsPinned="False" ForceCursor="True" Width="245" >
+                <Canvas Height="246" Margin="28,0,29,0">
+                    <ListBox x:Name="listBox" HorizontalAlignment="Left" Width="188"  Height="204" ForceCursor="True" IsSynchronizedWithCurrentItem="False" RenderTransformOrigin="0.484,0.206" Canvas.Top="-65">
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                        <ListBoxItem Content="ListBoxItem"/>
+                    </ListBox>
+                    <ToggleButton x:Name="deleteBtn" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF3FC90C" Canvas.Top="140" Height="46" Width="48" Canvas.Left="139" Checked="deleteBtn_Checked">
+                        <ToggleButton.Background>
+                            <ImageBrush ImageSource="trashIcon.png">
+                                <ImageBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                                        <TranslateTransform Y="0.05"/>
+                                    </TransformGroup>
+                                </ImageBrush.RelativeTransform>
+                            </ImageBrush>
+                        </ToggleButton.Background>
+                    </ToggleButton>
+                </Canvas>
+                <!-- Your custom content here -->
+            </Controls:Flyout>
+
+
+        </Border>
+
+
+        <ToggleButton x:Name="mapBtn" Margin="81,389,531,6" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF46C517" RenderTransformOrigin="0.5,0.5" Checked="mapBtn_Click">
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.56"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="mapIcon.png"/>
+            </ToggleButton.Background>
+        </ToggleButton>
+        <ToggleButton x:Name="questionBtn" Margin="0,0,643,420" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF41BD13" Checked="questionBtn_Click" Unchecked="questionBtn_UnClick">
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="questionIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="0.8" ScaleY="0.8"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform Y="0.04"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+        </ToggleButton>
+        <ToggleButton x:Name="busSheduleBtn" Margin="0,387,612,10" Style="{DynamicResource MetroCircleToggleButtonStyle}" BorderBrush="#FF3BB010" Checked="busScheduleBtn">
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="bus2Icon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform Y="0.07"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+        </ToggleButton>
+        <ToggleButton x:Name="shoppingCartBtn" Margin="49,0,594,420" Style="{DynamicResource MetroCircleToggleButtonStyle}" Content="" BorderBrush="#FF3FB413" Checked="shoppingCartBtn_Click" Unchecked="shoppingCartBtn_UnClick">
+            <ToggleButton.Background>
+                <ImageBrush ImageSource="shopCartIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.2" ScaleY="1.2"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform Y="0.06"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </ToggleButton.Background>
+        </ToggleButton>
+       
+    </Grid>
+</Controls:MetroWindow>
